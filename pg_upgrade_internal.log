@@ -1,0 +1,69 @@
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 15:24:42 2019
+-----------------------------------------------------------------
+
+check for "/usr/local/Cellar/postgresql/9.6.10/bin" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 15:26:48 2019
+-----------------------------------------------------------------
+
+check for "/usr/local/var/postgres.9.5.backup/pg_clog" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 15:33:20 2019
+-----------------------------------------------------------------
+
+check for "/usr/local/var/postgres.9.5.backup/pg_clog" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 15:34:24 2019
+-----------------------------------------------------------------
+
+check for "/usr/local/var/postgres.9.5.backup/pg_xlog" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 15:34:46 2019
+-----------------------------------------------------------------
+
+check for "/usr/local/Cellar/postgresql@11bin" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 15:40:11 2019
+-----------------------------------------------------------------
+
+check for "/usr/local/Cellar/postgresql/11.3/bin/pg_resetxlog" failed: No such file or directory
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 20:06:11 2019
+-----------------------------------------------------------------
+
+check for "/usr/local/Cellar/postgresql/11.3/bin/pg_resetxlog" failed: No such file or directory
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 20:28:19 2019
+-----------------------------------------------------------------
+
+check for "/usr/local/var/postgres/pg_clog" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 20:29:51 2019
+-----------------------------------------------------------------
+
+check for "/usr/local/var/postgres/pg_xlog" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Tue Jun 18 20:30:07 2019
+-----------------------------------------------------------------
+
+Performing Consistency Checks
+-----------------------------
+Checking cluster versions                                   could not get version from /usr/local/var/postgres
