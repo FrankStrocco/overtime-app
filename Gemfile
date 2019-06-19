@@ -11,7 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap', '~> 1.4', '>= 1.4.4', require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -25,12 +25,14 @@ group :development do
 end
 
 group :test do
-  gem 'byebug'
   gem 'rspec-rails'
-  gem 'capybara', '>= 2.15'
+  gem 'capybara', '~> 3.24'
   gem 'database_cleaner'
   gem 'selenium-webdriver'
-  gem 'webdrivers', '~> 3.2.0'
+  gem 'webdrivers', '~> 4.0', '>= 4.0.1'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+gem 'devise', '~> 4.6', '>= 4.6.2'

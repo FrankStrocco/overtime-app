@@ -27,3 +27,6 @@ https://github.com/SeleniumHQ/selenium/issues/7125
 change gem ''chromedriver-helper' to ...
 
 gem 'webdrivers', '~> 3.2.0'
+
+devise.rb needs to have a real domain email for it to work..
+config.mailer_sender = 'no-reply@frankstrocco.com'
