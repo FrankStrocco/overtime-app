@@ -4,8 +4,8 @@
 
 ## Models
 - Post -> date:date rationale:text
-- User -> Devise
-- Admin -> STI
+x User -> Devise
+x Admin -> STI
 
 ## Features:
 - Approval Workflow
@@ -16,3 +16,6 @@
 
 ## UI:
 - Bootstrap -> formatting
+
+## Refactor TODOS:
+- Refactor user association integration test in post_spec
