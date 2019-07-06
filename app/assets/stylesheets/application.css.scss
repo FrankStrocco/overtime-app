@@ -1,3 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "posts.scss";
+
+.custom-nav {
+  margin-top: 15px
+}
+.dropdown-menu a {
+  padding: .25rem 1.5rem
+}
